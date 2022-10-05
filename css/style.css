@@ -1,0 +1,58 @@
+:root{
+    --color: rgb(170, 170, 4)
+}
+.main{
+    width: 800px;
+    min-height: 600px;
+    background: white;
+    float: left;
+}
+.header{
+    width: 800px;
+    min-height: 70px;
+    background: var(--color);
+    float: left;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+.center{
+    width: 800px;
+    min-height: 460px;
+    background: white;
+    float: left;
+}
+.footer{
+    width: 800px;
+    min-height: 70px;
+    background: var(--color);
+    float: left;
+    margin-top: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+.nav{
+    width: 200px;
+    min-height: inherit;
+    background: var(--color);
+    float: left;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+.article{
+    width: 420px;
+    min-height: inherit;
+    background: var(--color);
+    float: left;
+    margin: 0px 15px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+.ads{
+    width: 150px;
+    min-height: inherit;
+    background: var(--color);
+    float: left;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
